@@ -1,0 +1,777 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit CoreSingleLanguage' Language: 'es' Physical Memory: 14284 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mario/Documents/Unity/SimuladorEjemploCurso
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58576
+Successfully changed project path to: C:/Users/mario/Documents/Unity/SimuladorEjemploCurso
+C:/Users/mario/Documents/Unity/SimuladorEjemploCurso
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 108.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mario/Documents/Unity/SimuladorEjemploCurso/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     7142 MB
+    Driver:   30.0.13023.4001
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012776 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.821 seconds
+Domain Reload Profiling:
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (129ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (347ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.370 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1371ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1081ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (495ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (315ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (110.9 KB). Loaded Objects now: 3824.
+Memory consumption went from 115.9 MB to 115.8 MB.
+Total: 3.771900 ms (FindLiveObjects: 0.370000 ms CreateObjectMapping: 0.148100 ms MarkObjects: 3.128200 ms  DeleteObjects: 0.124500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36593.063737 seconds.
+  path: Packages/com.unity.test-framework/package.json
+  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18898ccc8b096ee8f2e6704cc6568de') in 0.057459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 164.508683 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo
+  artifactKey: Guid(3a34931f2d4c8f24e986b49e8cdccc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo using Guid(3a34931f2d4c8f24e986b49e8cdccc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14f6e03ff41920be9ffd1dd8a835123') in 0.018799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.608632 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene.unity
+  artifactKey: Guid(f9163f1f93df1b543838b03f441acb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene.unity using Guid(f9163f1f93df1b543838b03f441acb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d63e0341efde17342e59473bf8305') in 0.025297 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012221 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.467 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2468ms)
+		BeginReloadAssembly (281ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2030ms)
+			LoadAssemblies (176ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (494ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1152ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (269ms)
+				AfterProcessingInitializeOnLoad (73ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3827.
+Memory consumption went from 115.8 MB to 115.8 MB.
+Total: 9.329500 ms (FindLiveObjects: 0.622300 ms CreateObjectMapping: 1.792100 ms MarkObjects: 6.693700 ms  DeleteObjects: 0.216700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.064428 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afee06ffcfc86c81fb5841d4d7ab5ab') in 0.018127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 116.283749 seconds.
+  path: Assets/Resources/Free model Drawer(Final) .fbx
+  artifactKey: Guid(a1f0dcd2feb09c6488a413a91874e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Free model Drawer(Final) .fbx using Guid(a1f0dcd2feb09c6488a413a91874e935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd44a9de26fcf5df2e862288797c27f4f') in 0.322050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 574.632223 seconds.
+  path: Assets/Resources/Cuarto
+  artifactKey: Guid(8d301a23b0af9164b8bc93eea3f2587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cuarto using Guid(8d301a23b0af9164b8bc93eea3f2587b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18cbd4a843ac374e0e1263f5aa74d80') in 0.008762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.189889 seconds.
+  path: Assets/Resources/Personajes
+  artifactKey: Guid(225367a2f52d657448ef453b6d975903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes using Guid(225367a2f52d657448ef453b6d975903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc5bcdf3c3a42b8bf1e7460f25631ec') in 0.010129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.941732 seconds.
+  path: Assets/Resources/Personajes/Remy@Breathing Idle.fbx
+  artifactKey: Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy@Breathing Idle.fbx using Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62cffb3af3f2b2e74c55816c362076c5') in 0.691391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.198905 seconds.
+  path: Assets/Resources/Personajes/Remy@Breathing Idle.fbx
+  artifactKey: Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy@Breathing Idle.fbx using Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e85060b52f53e712faea604ebe2a0b') in 0.655796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.556970 seconds.
+  path: Assets/Resources/Personajes/Remy@Breathing Idle.fbx
+  artifactKey: Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy@Breathing Idle.fbx using Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce08bb8fc91012f2915a671b47e16633') in 0.173266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.772137 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy
+  artifactKey: Guid(dddbdb2432c408348929957152c731a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy using Guid(dddbdb2432c408348929957152c731a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b10afc92928ad35533008572c9909c') in 0.008547 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069048 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Diffuse.png
+  artifactKey: Guid(e907e1d01dad56a4b8b751a1ea184e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Diffuse.png using Guid(e907e1d01dad56a4b8b751a1ea184e0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '802a2b62baaeb6e2224dd7f4b670014b') in 0.043986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Diffuse.png
+  artifactKey: Guid(8c887aefca42c3648b0fab56f77a60fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Diffuse.png using Guid(8c887aefca42c3648b0fab56f77a60fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a92233c86e852b30891cfedbc744f5') in 0.020845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Gloss.png
+  artifactKey: Guid(81ca048a7f7875349ba3a7d74d5a39d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Gloss.png using Guid(81ca048a7f7875349ba3a7d74d5a39d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7137036bdea82a669eb7fe96e7ebac15') in 0.020218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Specular.png
+  artifactKey: Guid(3ee2480d88fd57244b55d21dfb86d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Specular.png using Guid(3ee2480d88fd57244b55d21dfb86d06b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c55be0f0439a45d3dcdf6cf70a10354') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Specular.png
+  artifactKey: Guid(349b9b5927b83a64ab8035a48c5d9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Specular.png using Guid(349b9b5927b83a64ab8035a48c5d9aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1dbe72d7c0f4faf43f5daf3d2cfcedf') in 0.019030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Diffuse.png
+  artifactKey: Guid(e8e85b4e8517f4043ba410c89d89b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Diffuse.png using Guid(e8e85b4e8517f4043ba410c89d89b979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8932525fcd649e960604f990710fba0') in 0.021853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Specular.png
+  artifactKey: Guid(16f543e515a515b41858dfc6ca621dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Specular.png using Guid(16f543e515a515b41858dfc6ca621dd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0693c598ee531bb7193b6e6b00da54b7') in 0.018700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Normal.png
+  artifactKey: Guid(363c92af91955ac49844ad997f3466f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Normal.png using Guid(363c92af91955ac49844ad997f3466f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5059111cfd98c5d3c6ce07f54be4834') in 0.031628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Opacity.png
+  artifactKey: Guid(aa7cf7ee2d2aa6a4e8308efb7329cfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Opacity.png using Guid(aa7cf7ee2d2aa6a4e8308efb7329cfe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a060f99016630d8c15766bc8189d381d') in 0.019852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Gloss.png
+  artifactKey: Guid(67728577eb73c814cb9592eca5f936ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Gloss.png using Guid(67728577eb73c814cb9592eca5f936ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b77ee6e782f0160b9601050740ad9f0') in 0.019180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Normal.png
+  artifactKey: Guid(777c72e43f78cf74c8bbd357b0411edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Shoes_Normal.png using Guid(777c72e43f78cf74c8bbd357b0411edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1503f4b27b6fe66bb320fa8ebd71130') in 0.020207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Normal.png
+  artifactKey: Guid(e503b9e75b0cdcb4bae8b190ffc812c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Normal.png using Guid(e503b9e75b0cdcb4bae8b190ffc812c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b4bb64735dba40a63a461de0246aa0') in 0.020064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Specular.png
+  artifactKey: Guid(c7b6ed4d1f1137b4dbcb7b1a440307d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Specular.png using Guid(c7b6ed4d1f1137b4dbcb7b1a440307d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c8f92865b32c2f3b2363b46da81f23f') in 0.027651 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Gloss.png
+  artifactKey: Guid(0b8020ea8db003b40bc28f8dcd3a7bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Gloss.png using Guid(0b8020ea8db003b40bc28f8dcd3a7bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61be505f7b8ee5defb4c53d51c7d74a2') in 0.021271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Opacity.png
+  artifactKey: Guid(21738b56b2cd8464499f5289f8735c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Opacity.png using Guid(21738b56b2cd8464499f5289f8735c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66da2b7abc5df94bb3ddb6e72496502') in 0.027130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Gloss.png
+  artifactKey: Guid(f525406822ed25f4b9f8d06ca605a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Gloss.png using Guid(f525406822ed25f4b9f8d06ca605a9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2370afa3479ba17be3727b5254546434') in 0.023706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Diffuse.png
+  artifactKey: Guid(9fe1af7f836f4d14183a476e59c68d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Bottom_Diffuse.png using Guid(9fe1af7f836f4d14183a476e59c68d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ed4c5c3ab9b6728e7bb37e0cffba2e') in 0.019794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Gloss.png
+  artifactKey: Guid(6ebda75530bf80b4186fe4be6d32f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Gloss.png using Guid(6ebda75530bf80b4186fe4be6d32f12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a0b307dff7febfd63f88ccd3b7a0d22') in 0.026038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Normal.png
+  artifactKey: Guid(1a3f399756e53e84f9071013e4a8294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Body_Normal.png using Guid(1a3f399756e53e84f9071013e4a8294b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e934b0c0fcf58e2a554801e1d195bff') in 0.035407 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Normal.png
+  artifactKey: Guid(e2ea2cc06ce981e4faf8f766b5194048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Normal.png using Guid(e2ea2cc06ce981e4faf8f766b5194048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ece0cc72aecb77c115878d290bff9b') in 0.022367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Specular.png
+  artifactKey: Guid(c9ddfd350bf921f459cfa31e1fed5b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Hair_Specular.png using Guid(c9ddfd350bf921f459cfa31e1fed5b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c6be8c0c0dcee599882b16d1f4439f') in 0.026068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Diffuse.png
+  artifactKey: Guid(fdb43121626dcb843ade0590f0180b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/PersonajeRemy/Remy_Top_Diffuse.png using Guid(fdb43121626dcb843ade0590f0180b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f0db7ae9fc72ae5647bde853a2c612') in 0.021063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.586428 seconds.
+  path: Assets/Resources/Personajes/Remy.fbx
+  artifactKey: Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy.fbx using Guid(7b171d071c1a96d4fb66a0a3c1f78e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6429a8f3234d1fe522a300466bc4acd5') in 0.182988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.945440 seconds.
+  path: Assets/Resources/Cuarto/MaterialesCajon/Free Drawer  textures.mat
+  artifactKey: Guid(efc14a4ae56adb845a6990ba82367053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cuarto/MaterialesCajon/Free Drawer  textures.mat using Guid(efc14a4ae56adb845a6990ba82367053) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c23fbcd6fe797ed82f3deabbb0b10c8e') in 0.029320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.813631 seconds.
+  path: Assets/Resources/Cuarto/MaterialesCama/MaterialCobija.mat
+  artifactKey: Guid(21dff8f535007be43ae0416b658085c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Cuarto/MaterialesCama/MaterialCobija.mat using Guid(21dff8f535007be43ae0416b658085c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e2377e85caaca588e8f6f013e01b0ef') in 0.022117 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009073 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.658 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1659ms)
+		BeginReloadAssembly (163ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1366ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (423ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (623ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (122ms)
+				ProcessInitializeOnLoadAttributes (396ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3876.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 5.498200 ms (FindLiveObjects: 0.624700 ms CreateObjectMapping: 0.200100 ms MarkObjects: 4.504300 ms  DeleteObjects: 0.167300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009004 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1511ms)
+		BeginReloadAssembly (161ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1216ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.2 KB). Loaded Objects now: 3879.
+Memory consumption went from 133.3 MB to 133.3 MB.
+Total: 5.821300 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.106400 ms MarkObjects: 5.266500 ms  DeleteObjects: 0.153400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 357.147103 seconds.
+  path: Assets/Resources/Personajes/AnimacionesRemy/Main Camera.controller
+  artifactKey: Guid(69d3c7d53587d0b42a7da54b6ff03040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/AnimacionesRemy/Main Camera.controller using Guid(69d3c7d53587d0b42a7da54b6ff03040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b09491d98a3958351d4b46b12109762') in 0.032674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 75.138054 seconds.
+  path: Assets/Resources/Personajes/AnimacionesRemy/New Animation.anim
+  artifactKey: Guid(c36029414f3de084bb9b7cca15a760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/AnimacionesRemy/New Animation.anim using Guid(c36029414f3de084bb9b7cca15a760ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd5b38ece39bb5b14b8d1d04521f1a7') in 0.013383 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008199 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.714 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1715ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (1417ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (443ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (643ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (32ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (413ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3882.
+Memory consumption went from 133.4 MB to 133.3 MB.
+Total: 6.918800 ms (FindLiveObjects: 0.732400 ms CreateObjectMapping: 0.219900 ms MarkObjects: 5.772200 ms  DeleteObjects: 0.190800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 117.550773 seconds.
+  path: Assets/Resources/Personajes/AnimacionesRemy
+  artifactKey: Guid(aafc02bd9ef7fa4418cfd927e66c7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/AnimacionesRemy using Guid(aafc02bd9ef7fa4418cfd927e66c7b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c79809b4d637a87aeeb5dafdd38b6ef') in 0.016198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.803230 seconds.
+  path: Assets/Resources/Personajes/Remy
+  artifactKey: Guid(b4b86685c2f1728419348072362231ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy using Guid(b4b86685c2f1728419348072362231ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c41b3bb403d8fc816d2768d5245f49f') in 0.003005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.327970 seconds.
+  path: Assets/Resources/Personajes/Remy/MaterialesRemy
+  artifactKey: Guid(b5524f78566d9a7438f17de1572710e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy/MaterialesRemy using Guid(b5524f78566d9a7438f17de1572710e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2900700aa65f045a50049767a609adc') in 0.010577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.789711 seconds.
+  path: Assets/Resources/Personajes/Remy/MaterialesRemy/Hair.mat
+  artifactKey: Guid(7328c7a689b0e1544918e4fe4aeafda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy/MaterialesRemy/Hair.mat using Guid(7328c7a689b0e1544918e4fe4aeafda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2517aebe8cba405d6b0a37f8d8499b') in 0.114166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.383809 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c46e5dc67ed556240b2730a82d63fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-0_comp_light.exr using Guid(c46e5dc67ed556240b2730a82d63fedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345084b97ba93406e165559564f2e704') in 0.060959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_AO.png
+  artifactKey: Guid(6a479e138643c6244b71877c479a2536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_AO.png using Guid(6a479e138643c6244b71877c479a2536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc34258a53416cfb48981499101edbd') in 0.025658 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3f97f1a02b4810d44b46966d65937655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-1_comp_light.exr using Guid(3f97f1a02b4810d44b46966d65937655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13fa2d543d0472e1603eead8b88ec1d') in 0.027985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(4c391d85a7e8dd04ea83dd300863a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-3_comp_light.exr using Guid(4c391d85a7e8dd04ea83dd300863a589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de655b7910508f4dc6407e49ffb318f') in 0.030268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_Albedo.png
+  artifactKey: Guid(52cc8bcb012bcd1438d0ef174eac2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_Albedo.png using Guid(52cc8bcb012bcd1438d0ef174eac2c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dca8b9444dc5a10693ed27966c14f714') in 0.027324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(6e92ac89204251c469505de4811e93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/Lightmap-2_comp_light.exr using Guid(6e92ac89204251c469505de4811e93e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70228d1908db25c3407293f1be68a41a') in 0.029585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_MetallicSM.png
+  artifactKey: Guid(aad0caad5c118484abc717583b8011ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_MetallicSM.png using Guid(aad0caad5c118484abc717583b8011ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea10d1fe0da641002ad8009cf3ac8b41') in 0.033077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.905061 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_Normal.png
+  artifactKey: Guid(b566257f8cc81c54782a535b11ad4f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Assets/Texture/MobileBedRoomFurniture_Normal.png using Guid(b566257f8cc81c54782a535b11ad4f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '843d230b38697100ee24b37d2711efb1') in 0.036730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(d275dcb908aef5a47853371bec3f717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/ReflectionProbe-0.exr using Guid(d275dcb908aef5a47853371bec3f717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53d8d65073439ddf612314815a3a581') in 0.044195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.552922 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/ReflectionProbe-1.exr
+  artifactKey: Guid(8f0b3623192005c4db670c4dd5792528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene/ReflectionProbe-1.exr using Guid(8f0b3623192005c4db670c4dd5792528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f85afaebf0c955deeaaf1ab7d015d0') in 0.034719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 531.913830 seconds.
+  path: Assets/Resources/Personajes/Remy/MaterialesRemy/levantarBrazo.anim
+  artifactKey: Guid(c4b46479399efc04186017f537506f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy/MaterialesRemy/levantarBrazo.anim using Guid(c4b46479399efc04186017f537506f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d966fe79a264a09b26b1d1cc7921e5') in 0.010993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 289.173670 seconds.
+  path: Assets/Resources/Personajes/Remy/AnimacionesRemy/Remy.controller
+  artifactKey: Guid(6e05e2eaeb1d47248ab909972e670ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy/AnimacionesRemy/Remy.controller using Guid(6e05e2eaeb1d47248ab909972e670ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfed6ce893fc434ab4a3c8df6d534cf') in 0.005463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 125.480062 seconds.
+  path: Assets/Resources/Personajes/Remy/AnimacionesRemy/levantarBrazo.anim
+  artifactKey: Guid(74f34e1de13f41c40843b2a43bf37657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Personajes/Remy/AnimacionesRemy/levantarBrazo.anim using Guid(74f34e1de13f41c40843b2a43bf37657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30f34e2e8ee27cc33c6ca3d30c6c691d') in 0.004742 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008821 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mario\Documents\Unity\SimuladorEjemploCurso\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.496 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1198ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (380ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (539ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (338ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.1 KB). Loaded Objects now: 3889.
+Memory consumption went from 133.6 MB to 133.5 MB.
+Total: 4.737400 ms (FindLiveObjects: 0.451800 ms CreateObjectMapping: 0.116800 ms MarkObjects: 4.069000 ms  DeleteObjects: 0.097300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
