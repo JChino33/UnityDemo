@@ -6,11 +6,12 @@ using UnityEngine;
 public class ClickBook : MonoBehaviour
 {
     public TextMesh texto;
-    public string mensaje;
+    public GameObject sonidoHola;
     
     private void OnMouseDown()
     {
+        Instantiate(sonidoHola);
         print("hiciste un clic");
-        texto.text = "hola amigo";              
+        texto.text = "hola, como estas?";              
     }    
 }
